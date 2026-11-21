@@ -2,21 +2,25 @@
 
 Milo is a voice-first AI cat companion for adults navigating eating disorders. Call Milo for emotional support before or after a difficult meal, choose what it remembers privately, or explore the Public Memory preview.
 
-| Welcome to Milo | Choose your cat |
-| :---: | :---: |
-| [![Milo's login screen with a black cat above the email and password fields.](docs/screenshots/login.png)](docs/screenshots/login.png) | [![Companion setup with the white cat selected, named Luna, and the Gentle and Patient styles selected.](docs/screenshots/choose-your-cat.png)](docs/screenshots/choose-your-cat.png) |
+## A spoken welcome
 
-Choose a black or white cat, give it a name, and pick the language and conversation styles you want to hear when you call.
+Your cat greets you by name. “Welcome home, Robin!” Then it asks how you’re feeling and how eating has felt today. You can tap an answer or skip a question. When your cat asks, “What can I do for you?”, you can choose **Just listen**, **Chat with me**, or **Eat with me**.
 
-| Voice call | Private Memory | Public Memory |
+| A greeting just for you | How are you feeling? | What would help? |
 | :---: | :---: | :---: |
-| [![Mochi waiting for a voice call with the Start call button below.](docs/screenshots/voice-call.png)](docs/screenshots/voice-call.png) | [![The Private Memory preview asks for a personal key to unlock it.](docs/screenshots/private-memory.png)](docs/screenshots/private-memory.png) | [![The Public Memory preview shows a fictional shared experience and tabs for advice and resources.](docs/screenshots/public-memory.png)](docs/screenshots/public-memory.png) |
+| [![Milo's cat greets Robin with “Welcome home, Robin!”](docs/screenshots/spoken-welcome.png)](docs/screenshots/spoken-welcome.png) | [![The cat asks how Robin is feeling. Okay is selected, and Skip is available.](docs/screenshots/welcome-feelings.png)](docs/screenshots/welcome-feelings.png) | [![The cat asks what it can do. Just listen is selected alongside Chat with me and Eat with me.](docs/screenshots/welcome-support.png)](docs/screenshots/welcome-support.png) |
 
-*Mobile interface previews with fictional data. Select a screenshot to view it at full size.*
+*Screenshots use a fictional profile. Select an image to view it at full size.*
 
 ## Talk with Milo
 
 Some days it’s easier to speak than to type. Start a voice call and tell Milo what kind of company you want. You might say, *“Dinner was hard today. Can you just listen for a minute?”* Milo responds aloud in your cat’s voice. You can read captions, mute your microphone, interrupt a reply, or end the call whenever you want.
+
+Choose a black or white cat, give it a name, and pick its language and conversation style.
+
+| Choose your cat | Start a voice call |
+| :---: | :---: |
+| [![A white cat named Luna with Gentle and Patient selected.](docs/screenshots/choose-your-cat.png)](docs/screenshots/choose-your-cat.png) | [![Mochi waiting for a voice call with the Start call button below.](docs/screenshots/voice-call.png)](docs/screenshots/voice-call.png) |
 
 ## Private Memory
 
@@ -28,6 +32,10 @@ You can see what Milo has remembered, correct a detail, delete it, or turn memor
 
 Public Memory is a separate space for **Shared Experiences**, **Professional Advice**, and **Helpful Resources**. The prototype uses a fictional experience to demonstrate sharing. The advice and resource sections are previews. Personal calls and entries in the private memory database stay out of this public space. [How the memory preview works](docs/MEMORY-PREVIEW.md)
 
+| Private Memory | Public Memory |
+| :---: | :---: |
+| [![The Private Memory preview asks for a personal key.](docs/screenshots/private-memory.png)](docs/screenshots/private-memory.png) | [![The Public Memory preview shows a fictional shared experience.](docs/screenshots/public-memory.png)](docs/screenshots/public-memory.png) |
+
 ## Between calls
 
 - **Meal and mood journal.** Save a photo, a feeling, or a few words about a meal. Weekly and monthly reports summarize the moments you recorded.
@@ -38,7 +46,7 @@ Built for Cal Hacks 13.0, Milo is a mobile-first prototype for everyday emotiona
 
 ## Try it
 
-Choose **Try the fictional demo** on the login screen to explore with sample data. To hear Milo’s live voice, sign in to an account with the voice services configured, open Chat, and start a call. Persistent private memory also requires the memory service and its background worker.
+Choose **Try the fictional demo** to explore with sample data. To hear Milo’s live voice, sign in to an account with the voice services configured, open Chat, and start a call. Persistent private memory also requires the memory service and its background worker.
 
 ## Run locally
 
