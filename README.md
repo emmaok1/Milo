@@ -2,6 +2,12 @@
 
 Milo is a voice-first AI cat companion for adults navigating eating disorders. Call Milo for emotional support before or after a difficult meal, choose what it remembers privately, or explore the Public Memory preview.
 
+| Welcome to Milo | Choose your cat |
+| :---: | :---: |
+| [![Milo's login screen with a black cat above the email and password fields.](docs/screenshots/login.png)](docs/screenshots/login.png) | [![Companion setup with the white cat selected, named Luna, and the Gentle and Patient styles selected.](docs/screenshots/choose-your-cat.png)](docs/screenshots/choose-your-cat.png) |
+
+Choose a black or white cat, give it a name, and pick the language and conversation styles you want to hear when you call.
+
 | Voice call | Private Memory | Public Memory |
 | :---: | :---: | :---: |
 | [![Mochi waiting for a voice call with the Start call button below.](docs/screenshots/voice-call.png)](docs/screenshots/voice-call.png) | [![The Private Memory preview asks for a personal key to unlock it.](docs/screenshots/private-memory.png)](docs/screenshots/private-memory.png) | [![The Public Memory preview shows a fictional shared experience and tabs for advice and resources.](docs/screenshots/public-memory.png)](docs/screenshots/public-memory.png) |
