@@ -1,34 +1,32 @@
-# Milo
+# Milo — A Voice Companion for Eating Disorder Support
 
-**A little company, at your pace.**
+Milo is a voice-first AI cat companion for adults navigating eating disorders. Call Milo for emotional support before or after a difficult meal, choose what it remembers privately, or explore the Public Memory preview.
 
-Milo is a mobile-first AI companion prototype built for Cal Hacks 13.0. It brings together a personalized cat companion, voice conversations, meal-and-feeling journaling, descriptive reports, editable memory, and shared meals with friends.
+## Talk with Milo
 
-Designed for adults (18+), Milo offers a place to talk about stressful moments around eating without turning the experience into a calorie score. It is a supportive companion, not a clinician, diagnostic tool, treatment, or emergency service.
+Some days it’s easier to speak than to type. Start a voice call and tell Milo what kind of company you want. You might say, *“Dinner was hard today. Can you just listen for a minute?”* Milo responds aloud in your cat’s voice. You can read captions, mute your microphone, interrupt a reply, or end the call whenever you want.
 
-## Experience
+## Private Memory
 
-| Feature | What it does |
-| --- | --- |
-| **Companion** | Choose a black or white cat, name it, and set its language and conversation styles. |
-| **Chat & voice** | Talk with contextual AI responses, spoken replies, captions, mute, explicit interruption, and hangup controls. |
-| **Journal** | Record meal moments, photos, feelings, and optional notes. |
-| **Report** | Review weekly or monthly food-photo categories, feeling counts, a summary, and a short next step. |
-| **Memory** | Manage memory mode and view, correct, add, or remove remembered details. |
-| **Eat Together** | Spend time with an animated cat or join friends in a private video room. |
-| **Settings** | Personalize appearance and access memory, privacy, and account controls. |
+Talking about eating or mental health can mean sharing something you would only say in private. Milo’s private memory database keeps selected details tied to your account. With memory enabled, you can tell Milo, *“After dinner, please listen first and keep your replies short.”* If Milo saves that preference, it can use it the next time you call.
 
-Reports describe recorded entries; photo-category percentages do not measure calories, portion size, or nutritional intake. Sample reports are labeled as sample data.
+You can see what Milo has remembered, correct a detail, delete it, or turn memory off. For a conversation you want to keep out of Milo’s chat history and long-term memory, choose a temporary chat. Live calls still use the configured AI and speech providers, which may retain requests under their own policies.
 
-## A short demo walkthrough
+## Public Memory
 
-1. Personalize your companion and open Chat.
-2. Start a voice call and share a stressful moment. Ask for listening rather than advice to see how the response adapts.
-3. End the call and inspect the actual Memory results. Processing may take time; not every message becomes a memory.
-4. Save a journal entry and open Report to explore the selected week or month.
-5. Open Friends → Eat Together. Choose your cat or join a private video room with friends.
+Public Memory is a separate space for **Shared Experiences**, **Professional Advice**, and **Helpful Resources**. The prototype uses a fictional experience to demonstrate sharing. The advice and resource sections are previews. Personal calls and entries in the private memory database stay out of this public space. [How the memory preview works](docs/MEMORY-PREVIEW.md)
 
-Fictional preview data demonstrates the interface. Real AI replies, voice generation, persistent memory, and friend video require the corresponding live services below. A preview is not a live connection.
+## Between calls
+
+- **Meal and mood journal.** Save a photo, a feeling, or a few words about a meal. Weekly and monthly reports summarize the moments you recorded.
+- **Eat Together.** Share a meal with your animated cat or invite friends to a private video room.
+- **Make Milo yours.** Choose a black or white cat, give it a name, and set its language and conversation style.
+
+Built for Cal Hacks 13.0, Milo is a mobile-first prototype for everyday emotional companionship. Diagnosis, treatment, and emergency care are outside its scope.
+
+## Try it
+
+Choose **Try the fictional demo** on the login screen to explore with sample data. To hear Milo’s live voice, sign in to an account with the voice services configured, open Chat, and start a call. Persistent private memory also requires the memory service and its background worker.
 
 ## Run locally
 
